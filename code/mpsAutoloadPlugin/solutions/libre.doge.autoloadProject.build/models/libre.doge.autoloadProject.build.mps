@@ -130,22 +130,25 @@
   </registry>
   <node concept="1l3spW" id="7fhEwnWaOvr">
     <property role="TrG5h" value="mpsAutoloadPlugin" />
-    <property role="2DA0ip" value="../.." />
+    <property role="2DA0ip" value="../../../../build" />
+    <node concept="398rNT" id="7fhEwnWcL5a" role="1l3spd">
+      <property role="TrG5h" value="project.root" />
+      <node concept="55IIr" id="7fhEwnWcL5m" role="398pKh">
+        <node concept="2Ry0Ak" id="7fhEwnWcL5p" role="iGT6I">
+          <property role="2Ry0Am" value=".." />
+        </node>
+      </node>
+    </node>
     <node concept="10PD9b" id="7fhEwnWaOvs" role="10PD9s" />
     <node concept="3b7kt6" id="7fhEwnWaOvt" role="10PD9s" />
     <node concept="398rNT" id="7fhEwnWcAJl" role="1l3spd">
       <property role="TrG5h" value="mps.home" />
-      <node concept="55IIr" id="7fhEwnWcAJs" role="398pKh">
-        <node concept="2Ry0Ak" id="7fhEwnWcAJv" role="iGT6I">
-          <property role="2Ry0Am" value=".." />
-          <node concept="2Ry0Ak" id="7fhEwnWcAJy" role="2Ry0An">
-            <property role="2Ry0Am" value=".." />
-            <node concept="2Ry0Ak" id="7fhEwnWcAJ_" role="2Ry0An">
-              <property role="2Ry0Am" value="build" />
-              <node concept="2Ry0Ak" id="7fhEwnWcAJC" role="2Ry0An">
-                <property role="2Ry0Am" value="mps" />
-              </node>
-            </node>
+      <node concept="398BVA" id="7fhEwnWcL5G" role="398pKh">
+        <ref role="398BVh" node="7fhEwnWcL5a" resolve="project.root" />
+        <node concept="2Ry0Ak" id="7fhEwnWcL5M" role="iGT6I">
+          <property role="2Ry0Am" value="build" />
+          <node concept="2Ry0Ak" id="7fhEwnWcL5R" role="2Ry0An">
+            <property role="2Ry0Am" value="mps" />
           </node>
         </node>
       </node>
@@ -228,50 +231,64 @@
     </node>
     <node concept="2G$12M" id="7fhEwnWaOvG" role="3989C9">
       <property role="TrG5h" value="libre.doge.mpsAutoloadPlugin" />
-      <node concept="1E1JtA" id="7fhEwnWaOvF" role="2G$12L">
+      <node concept="1E1JtA" id="7fhEwnWcOM8" role="2G$12L">
+        <property role="BnDLt" value="true" />
         <property role="TrG5h" value="libre.doge.autoloadProject" />
         <property role="3LESm3" value="75ec43e0-3f96-4ad5-9345-5203f366f464" />
-        <property role="BnDLt" value="true" />
-        <node concept="55IIr" id="7fhEwnWaOvA" role="3LF7KH">
-          <node concept="2Ry0Ak" id="7fhEwnWaOvB" role="iGT6I">
-            <property role="2Ry0Am" value="solutions" />
-            <node concept="2Ry0Ak" id="7fhEwnWaOvC" role="2Ry0An">
-              <property role="2Ry0Am" value="libre.doge.autoloadProject" />
-              <node concept="2Ry0Ak" id="7fhEwnWaOvD" role="2Ry0An">
-                <property role="2Ry0Am" value="libre.doge.autoloadProject.msd" />
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="1BupzO" id="7fhEwnWaOw4" role="3bR31x">
-          <property role="3ZfqAx" value="models" />
-          <property role="1Hdu6h" value="true" />
-          <property role="1HemKv" value="true" />
-          <node concept="3LXTmp" id="7fhEwnWaOw5" role="1HemKq">
-            <node concept="55IIr" id="7fhEwnWaOw0" role="3LXTmr">
-              <node concept="2Ry0Ak" id="7fhEwnWaOw1" role="iGT6I">
+        <node concept="398BVA" id="7fhEwnWcOMc" role="3LF7KH">
+          <ref role="398BVh" node="7fhEwnWcL5a" resolve="project.root" />
+          <node concept="2Ry0Ak" id="7fhEwnWcOMi" role="iGT6I">
+            <property role="2Ry0Am" value="code" />
+            <node concept="2Ry0Ak" id="7fhEwnWcOMn" role="2Ry0An">
+              <property role="2Ry0Am" value="mpsAutoloadPlugin" />
+              <node concept="2Ry0Ak" id="7fhEwnWcOMs" role="2Ry0An">
                 <property role="2Ry0Am" value="solutions" />
-                <node concept="2Ry0Ak" id="7fhEwnWaOw2" role="2Ry0An">
+                <node concept="2Ry0Ak" id="7fhEwnWcOMx" role="2Ry0An">
                   <property role="2Ry0Am" value="libre.doge.autoloadProject" />
-                  <node concept="2Ry0Ak" id="7fhEwnWaOw3" role="2Ry0An">
-                    <property role="2Ry0Am" value="models" />
+                  <node concept="2Ry0Ak" id="7fhEwnWcOMA" role="2Ry0An">
+                    <property role="2Ry0Am" value="libre.doge.autoloadProject.msd" />
                   </node>
                 </node>
               </node>
             </node>
-            <node concept="3qWCbU" id="7fhEwnWaOw6" role="3LXTna">
-              <property role="3qWCbO" value="**/*.mps, **/*.mpsr, **/.model" />
-            </node>
           </node>
         </node>
-        <node concept="1SiIV0" id="7fhEwnWcsmW" role="3bR37C">
-          <node concept="3bR9La" id="7fhEwnWcsmX" role="1SiIV1">
+        <node concept="1SiIV0" id="7fhEwnWcOMC" role="3bR37C">
+          <node concept="3bR9La" id="7fhEwnWcOMD" role="1SiIV1">
             <ref role="3bR37D" to="ffeo:mXGwHwhVPj" resolve="JDK" />
           </node>
         </node>
-        <node concept="1SiIV0" id="7fhEwnWcsmY" role="3bR37C">
-          <node concept="3bR9La" id="7fhEwnWcsmZ" role="1SiIV1">
+        <node concept="1SiIV0" id="7fhEwnWcOME" role="3bR37C">
+          <node concept="3bR9La" id="7fhEwnWcOMF" role="1SiIV1">
             <ref role="3bR37D" to="ffeo:1ia2VB5guYy" resolve="MPS.IDEA" />
+          </node>
+        </node>
+        <node concept="1BupzO" id="7fhEwnWcOMM" role="3bR31x">
+          <property role="3ZfqAx" value="models" />
+          <property role="1Hdu6h" value="true" />
+          <property role="1HemKv" value="true" />
+          <node concept="3LXTmp" id="7fhEwnWcOMN" role="1HemKq">
+            <node concept="398BVA" id="7fhEwnWcOMG" role="3LXTmr">
+              <ref role="398BVh" node="7fhEwnWcL5a" resolve="project.root" />
+              <node concept="2Ry0Ak" id="7fhEwnWcOMH" role="iGT6I">
+                <property role="2Ry0Am" value="code" />
+                <node concept="2Ry0Ak" id="7fhEwnWcOMI" role="2Ry0An">
+                  <property role="2Ry0Am" value="mpsAutoloadPlugin" />
+                  <node concept="2Ry0Ak" id="7fhEwnWcOMJ" role="2Ry0An">
+                    <property role="2Ry0Am" value="solutions" />
+                    <node concept="2Ry0Ak" id="7fhEwnWcOMK" role="2Ry0An">
+                      <property role="2Ry0Am" value="libre.doge.autoloadProject" />
+                      <node concept="2Ry0Ak" id="7fhEwnWcOML" role="2Ry0An">
+                        <property role="2Ry0Am" value="models" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3qWCbU" id="7fhEwnWcOMO" role="3LXTna">
+              <property role="3qWCbO" value="**/*.mps, **/*.mpsr, **/.model" />
+            </node>
           </node>
         </node>
       </node>

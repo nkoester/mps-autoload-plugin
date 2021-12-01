@@ -4,6 +4,7 @@
     <projectModules>
       <modulePath path="$PROJECT_DIR$/solutions/libre.doge.autoloadProject.build/libre.doge.autoloadProject.build.msd" folder="00__build" />
       <modulePath path="$PROJECT_DIR$/solutions/libre.doge.autoloadProject/libre.doge.autoloadProject.msd" folder="10__plugin" />
+      <modulePath path="$PROJECT_DIR$/solutions/libre.doge.mpsAutoloadPlugin.buildAll/libre.doge.mpsAutoloadPlugin.buildAll.msd" folder="00__build" />
     </projectModules>
   </component>
 </project>
