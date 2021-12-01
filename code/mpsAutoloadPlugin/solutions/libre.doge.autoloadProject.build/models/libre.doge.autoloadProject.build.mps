@@ -52,6 +52,7 @@
       </concept>
       <concept id="5617550519002745364" name="jetbrains.mps.build.structure.BuildLayout" flags="ng" index="1l3spV" />
       <concept id="5617550519002745363" name="jetbrains.mps.build.structure.BuildProject" flags="ng" index="1l3spW">
+        <property id="4915877860348071612" name="fileName" index="turDy" />
         <property id="5204048710541015587" name="internalBaseDirectory" index="2DA0ip" />
         <child id="6647099934206700656" name="plugins" index="10PD9s" />
         <child id="7389400916848080626" name="parts" index="3989C9" />
@@ -129,13 +130,21 @@
     </language>
   </registry>
   <node concept="1l3spW" id="7fhEwnWaOvr">
-    <property role="TrG5h" value="mpsAutoloadPlugin" />
-    <property role="2DA0ip" value="../../../../build" />
+    <property role="TrG5h" value="libre.doge.mpsAutoloadPlugin" />
+    <property role="2DA0ip" value="../../../../" />
+    <property role="turDy" value="buildPlugin.xml" />
     <node concept="398rNT" id="7fhEwnWcL5a" role="1l3spd">
       <property role="TrG5h" value="project.root" />
       <node concept="55IIr" id="7fhEwnWcL5m" role="398pKh">
-        <node concept="2Ry0Ak" id="7fhEwnWcL5p" role="iGT6I">
-          <property role="2Ry0Am" value=".." />
+        <node concept="2Ry0Ak" id="7fhEwnWd3dR" role="iGT6I" />
+      </node>
+    </node>
+    <node concept="398rNT" id="7fhEwnWd4EV" role="1l3spd">
+      <property role="TrG5h" value="build.root" />
+      <node concept="398BVA" id="7fhEwnWd4Fg" role="398pKh">
+        <ref role="398BVh" node="7fhEwnWcL5a" resolve="project.root" />
+        <node concept="2Ry0Ak" id="7fhEwnWd4Fl" role="iGT6I">
+          <property role="2Ry0Am" value="build" />
         </node>
       </node>
     </node>
@@ -144,12 +153,9 @@
     <node concept="398rNT" id="7fhEwnWcAJl" role="1l3spd">
       <property role="TrG5h" value="mps.home" />
       <node concept="398BVA" id="7fhEwnWcL5G" role="398pKh">
-        <ref role="398BVh" node="7fhEwnWcL5a" resolve="project.root" />
-        <node concept="2Ry0Ak" id="7fhEwnWcL5M" role="iGT6I">
-          <property role="2Ry0Am" value="build" />
-          <node concept="2Ry0Ak" id="7fhEwnWcL5R" role="2Ry0An">
-            <property role="2Ry0Am" value="mps" />
-          </node>
+        <ref role="398BVh" node="7fhEwnWd4EV" resolve="build.root" />
+        <node concept="2Ry0Ak" id="7fhEwnWd3dZ" role="iGT6I">
+          <property role="2Ry0Am" value="mps" />
         </node>
       </node>
     </node>
@@ -187,10 +193,14 @@
       </node>
     </node>
     <node concept="1l3spV" id="7fhEwnWaOvU" role="1l3spN">
+      <node concept="m$_wl" id="7fhEwnWcSuZ" role="39821P">
+        <ref role="m_rDy" node="7fhEwnWaOvH" resolve="libre.doge.mpsAutoloadPlugin" />
+        <node concept="pUk6x" id="7fhEwnWcSv0" role="pUk7w" />
+      </node>
       <node concept="3981dG" id="7fhEwnWaOvV" role="39821P">
         <node concept="3_J27D" id="7fhEwnWaOvW" role="Nbhlr">
           <node concept="3Mxwew" id="7fhEwnWaOvX" role="3MwsjC">
-            <property role="3MwjfP" value="mpsAutoloadPlugin.zip" />
+            <property role="3MwjfP" value="libre.doge.mpsAutoloadPlugin.zip" />
           </node>
         </node>
         <node concept="m$_wl" id="7fhEwnWaOvY" role="39821P">
@@ -237,15 +247,15 @@
         <property role="3LESm3" value="75ec43e0-3f96-4ad5-9345-5203f366f464" />
         <node concept="398BVA" id="7fhEwnWcOMc" role="3LF7KH">
           <ref role="398BVh" node="7fhEwnWcL5a" resolve="project.root" />
-          <node concept="2Ry0Ak" id="7fhEwnWcOMi" role="iGT6I">
+          <node concept="2Ry0Ak" id="7fhEwnWd3e2" role="iGT6I">
             <property role="2Ry0Am" value="code" />
-            <node concept="2Ry0Ak" id="7fhEwnWcOMn" role="2Ry0An">
+            <node concept="2Ry0Ak" id="7fhEwnWd3e3" role="2Ry0An">
               <property role="2Ry0Am" value="mpsAutoloadPlugin" />
-              <node concept="2Ry0Ak" id="7fhEwnWcOMs" role="2Ry0An">
+              <node concept="2Ry0Ak" id="7fhEwnWd3e4" role="2Ry0An">
                 <property role="2Ry0Am" value="solutions" />
-                <node concept="2Ry0Ak" id="7fhEwnWcOMx" role="2Ry0An">
+                <node concept="2Ry0Ak" id="7fhEwnWd3e5" role="2Ry0An">
                   <property role="2Ry0Am" value="libre.doge.autoloadProject" />
-                  <node concept="2Ry0Ak" id="7fhEwnWcOMA" role="2Ry0An">
+                  <node concept="2Ry0Ak" id="7fhEwnWd3e6" role="2Ry0An">
                     <property role="2Ry0Am" value="libre.doge.autoloadProject.msd" />
                   </node>
                 </node>

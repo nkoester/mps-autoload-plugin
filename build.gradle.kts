@@ -70,7 +70,7 @@ val setup by tasks.registering {
 
 val buildScripts by tasks.registering(BuildLanguages::class) {
     dependsOn(setup)
-    script = "$projectDir/code/mpsAutoloadPlugin/buildAll.xml"
+    script = "$projectDir/code/buildAll.xml"
 }
 
 val buildLanguages by tasks.registering(BuildLanguages::class) {
@@ -78,6 +78,6 @@ val buildLanguages by tasks.registering(BuildLanguages::class) {
     println("Build directory: " + buildDir + "\n")
     group = "build"
     description = "Build all languages in the MPS project"
-    script = "$buildDir/build.xml"
+    script = "$buildDir/../buildPlugin.xml"
     dependsOn(buildScripts)
 }

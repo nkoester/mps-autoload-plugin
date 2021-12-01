@@ -5,4 +5,4 @@ pluginManagement {
     }
 }
 
-rootProject.name = "mpsAutoloadPlugin"
+rootProject.name = "libre.doge.mpsAutoloadPlugin"

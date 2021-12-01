@@ -88,21 +88,13 @@
     </language>
   </registry>
   <node concept="1l3spW" id="7fhEwnWcGZT">
-    <property role="TrG5h" value="mpsAutoloadPlugin" />
-    <property role="2DA0ip" value="../../../../code/mpsAutoloadPlugin" />
+    <property role="TrG5h" value="libre.doge.mpsAutoloadPlugin.buildAll" />
+    <property role="2DA0ip" value="../../../.." />
     <property role="turDy" value="buildAll.xml" />
     <node concept="398rNT" id="7fhEwnWcL5a" role="1l3spd">
       <property role="TrG5h" value="project.root" />
       <node concept="55IIr" id="7fhEwnWcL5m" role="398pKh">
-        <node concept="2Ry0Ak" id="7fhEwnWcL5p" role="iGT6I">
-          <property role="2Ry0Am" value=".." />
-          <node concept="2Ry0Ak" id="7fhEwnWcL6H" role="2Ry0An">
-            <property role="2Ry0Am" value=".." />
-            <node concept="2Ry0Ak" id="7fhEwnWcOM2" role="2Ry0An">
-              <property role="2Ry0Am" value="" />
-            </node>
-          </node>
-        </node>
+        <node concept="2Ry0Ak" id="7fhEwnWcL5p" role="iGT6I" />
       </node>
     </node>
     <node concept="10PD9b" id="7fhEwnWcGZU" role="10PD9s" />
