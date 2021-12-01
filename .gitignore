@@ -10,7 +10,7 @@ build/
 lib/
 .mpsconfig/
 jbrdl/
-build.xml
+build*.xml
 
 # -----------------------------------------------------------
 # Model Checking Results
